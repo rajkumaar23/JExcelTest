@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 Number number = new Number(0, 1, 1);
                 excelSheet.addCell(number);
 
-                label = new Label(1, 0, "Result");
+                label = new Label(1, 0, "Result : = ");
                 excelSheet.addCell(label);
 
                 label = new Label(1, 1, "Value A");
